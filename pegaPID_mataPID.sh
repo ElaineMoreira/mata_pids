@@ -8,5 +8,5 @@ echo "$pids"
 for pid in $pids; do
     kill -9 $pid
 done
-    sleep 5
+    sleep 120
 echo "Processos encerrados com sucesso!"
